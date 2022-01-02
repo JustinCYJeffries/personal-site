@@ -1,0 +1,92 @@
+
+body, html {
+    height: 100%;
+    margin: 0;}
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  
+  .meowwolf, .lokis, .elara{
+  
+      position: relative;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+   .meowwolf {Background-image: url("https://i.ibb.co/JsDfNbN/20210925-190506.jpg");  
+    min-height:100%;
+  }
+  
+  
+  .lokis {Background-image:url("https://i.ibb.co/D1JthGp/157233246-HIGH.jpg");min-height:100%;}
+  
+  .elara{
+    background-image:url("https://i.ibb.co/GvkHsSs/20210920-100456.jpg"); 
+    min-height:100%;}
+  
+  #mySidenav a {
+      position: fixed;
+    left: -100px; 
+      transition: 0.3s; 
+      padding: 15px; 
+    width: 130px; 
+      text-decoration: none;
+      font-size: 20px;
+      color: black;
+      border-radius: 0 5px 5px 0;
+     display: block;
+    z-index:50;
+  }
+  
+  #mySidenav a:hover {
+      left: 0; }
+  
+  
+  #about_me {
+      top: 80px;
+      background-color: #EAEAEA;
+  }
+  
+  #places_been {
+      top: 140px;
+      background-color: #BDBCBC; 
+  }
+  
+  #daughter_elara {
+      top: 200px;
+      background-color: #979595;
+  }
+  
+  #video {
+      top: 260px;
+      background-color: #777777 
+  }
+  
+  
+  h2{
+    text-align:center;
+  }
+  
+  p{
+    margin-left:200px;
+    margin-right:200px;}
+  
+  
+  
