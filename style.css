@@ -20,7 +20,7 @@ body, html {
     letter-spacing: 10px;
   }
   
-  .meowwolf, .lokis, .elara, .kennywood {
+  .meowwolf, .lokis, .elara, .kennywood, .dl, .weird {
   
       position: relative;
     
@@ -38,6 +38,10 @@ body, html {
   .lokis {Background-image:url("https://i.ibb.co/D1JthGp/157233246-HIGH.jpg");min-height:100%;}
   
   .kennywood {Background-image:url("https://i.ibb.co/WvgfdDZ/20211217-210707.jpg");min-height:100%;}
+
+ .dl {Background-image:url("https://i.ibb.co/ZBd77Dv/20210922-184835.jpg");min-height:100%;}
+
+ .weird{background-image:url("https://i.ibb.co/DrJfQcq/20210925-191554.jpg");min-height:100%;}
 
   .elara{
     background-image:url("https://i.ibb.co/GvkHsSs/20210920-100456.jpg"); 
