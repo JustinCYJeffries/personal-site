@@ -23,4 +23,15 @@ function disney(){
        travels.classList.add('lokis');
    })
    }
-   
+
+   function purrgrowl(){
+       let purrgrowl = document.getElementById('#kittydog')
+       kittydog.addEventListener('mouseenter', function(){
+        travels.classList.remove('lokis');
+        travels.classList.add('weird');
+    })
+    kittydog.addEventListener('mouseleave', function(){
+       travels.classList.remove('weird');
+       travels.classList.add('lokis');
+   })
+   }
